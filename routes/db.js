@@ -7,6 +7,17 @@ const sql = require('mssql');
 //   res.render('index', { title: 'Express' });
 // });
 
+const dbConfig = {
+  user: "thomja",
+  password: "Bestseller2!",
+  server: "jt-express-test.database.windows.net",
+  database: "jt-express-test",
+  port: 1433,
+  options: {
+    encrypt: true
+  }
+};
+
 router.post('/', function(req,res,next) {
   var value = req.body.id;
   console.log(value);
