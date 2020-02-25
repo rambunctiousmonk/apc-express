@@ -9,9 +9,9 @@ const sql = require('mssql');
 
 const dbConfig = {
   user: "thomja",
-  password: "Bestseller2!",
-  server: "jt-express-test.database.windows.net",
-  database: "jt-express-test",
+  password: "***",
+  server: "***",
+  database: "***",
   port: 1433,
   options: {
     encrypt: true
